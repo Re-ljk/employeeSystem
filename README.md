@@ -8,12 +8,14 @@
 
 
 
-2.target文件为maven生成文件
+2.target文件为maven生成文件,需要每次重新生成
 
+![image](https://github.com/user-attachments/assets/3eadd985-f7e1-4bdb-9b15-8cb628e8d6b6)
 
 
 
 3.整体压缩包employeeSystem.zip
 
-![image](https://github.com/user-attachments/assets/e02ef6b5-967c-405a-a049-bdc2a97ef28b)
+![image](https://github.com/user-attachments/assets/0232cce0-ef90-455e-82b0-1863f17953c2)
+
 
