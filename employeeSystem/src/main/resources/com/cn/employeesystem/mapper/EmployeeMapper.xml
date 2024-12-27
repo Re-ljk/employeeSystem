@@ -4,4 +4,10 @@
     <select id="findAllEmployee" resultType="com.cn.employeesystem.entity.Employee">
         select *from employee
     </select>
+<!--    <select id="findEmployeeById" parameterType="java.lang.Integer" resultType="com.cn.employeesystem.entity.Employee">-->
+<!--        select *from employee where id = #{id}-->
+<!--    </select>-->
+        <select id="findEmployeeById" parameterType="java.lang.String" resultType="com.cn.employeesystem.entity.Employee">
+            select *from employee where id = #{id}
+        </select>
 </mapper>

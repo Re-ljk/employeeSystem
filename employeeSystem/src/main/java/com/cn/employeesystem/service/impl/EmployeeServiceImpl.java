@@ -19,4 +19,11 @@ public class EmployeeServiceImpl implements EmployeeService {
         System.out.println(list);
         return list;
     }
+
+    @Override
+    public Employee findEmployeeById(String id) {
+        return employeeMapper.findEmployeeById(id);
+    }
+
 }
+
