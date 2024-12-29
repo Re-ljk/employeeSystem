@@ -14,6 +14,7 @@ public class Employee {
     private String name; // 姓名
     private String gender; // 性别
     private Integer deptId; // 部门id
+    private LocalDateTime entryDate;
     private LocalDateTime createTime; // 创建时间
     private LocalDateTime updateTime; // 更新时间
 }
